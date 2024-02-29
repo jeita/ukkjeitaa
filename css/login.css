@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+  height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/img/image7.png');
+    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+
+button {
+    border: none;
+    background-color: #e9c5c5;
+    color: black;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    
+}
+  
+  .nav {
+    font-size: 30px;
+    display: flex; /* Add this line to make the children align horizontally */
+    align-items: center; /* To vertically center the items */
+    justify-content: space-between; /* To distribute space between the items */
+    gap: 50px;
+  }
+  .nav1{
+    display: flex; /* Add this line to make the children align horizontally */
+    align-items: center; /* To vertically center the items */
+    margin-left: auto;
+    gap: 20px;    
+  }
+
+.nav1 a{
+text-decoration: none;
+color: rgb(235, 130, 107);
+  }
+
+input{
+    border-radius: 6px;
+    margin-top: 10px;
+    background-color:#EAE9D8;
+    height: 30px;
+    width: 400px;
+} 
+  
+  
+section{
+  display: flex;
+  align-items: center;
+  height: 65vh;
+}
+.login input{
+  margin-bottom: 25px;
+}
+.bgg img{
+width: 100px;
+height: 100px;
+border-radius: none;
+
+}
