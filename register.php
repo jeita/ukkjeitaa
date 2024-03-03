@@ -51,7 +51,7 @@ background: linear-gradient(90deg, rgba(227,179,179,1) 35%, rgba(187,114,114,1) 
                                         $insert = mysqli_query($koneksi, "INSERT INTO user(namalengkap,email,username,alamat,pasword, level) VALUES ('$nama','$email','$username','$alamat','$password','$level')");
 
                                         if ($insert) {
-                                            echo '<script>alert("selamat Register berhasil. silahkan login);  location.href="login.php"</script>';
+                                            header("location:index.php");
                                         } else {
                                             echo '<script>alert("selamat Register gagal , silahkan ulangi kembali.)</script>';
                                         }
